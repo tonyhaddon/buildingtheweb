@@ -15,3 +15,8 @@ ul
 {
 	color: blue;
 }
+
+img
+{
+	border: solid 10px black;
+}
