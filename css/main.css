@@ -19,4 +19,6 @@ ul
 img
 {
 	border: solid 10px black;
+	padding: 20px;
+	margin: 30px;
 }
