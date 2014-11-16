@@ -16,8 +16,14 @@ ul
 	color: blue;
 }
 
+
 li
 {
 	margin: 10px 15px;
 	background-color: purple;
+}
+
+img
+{
+	border: solid 10px black;
 }
