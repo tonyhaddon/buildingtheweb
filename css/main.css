@@ -22,3 +22,17 @@ img
 	padding: 20px;
 	margin: 30px;
 }
+
+div
+{
+	margin: 20px auto;
+	width: 800px;
+	background-color: rgb(255,255,255);
+	padding: 30px;
+}
+
+.content
+{
+	background-color: rgb(230,240,250);
+}
+
