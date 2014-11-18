@@ -13,17 +13,21 @@ p
 
 ul
 {
-	color: blue;
-	background-color: rgb(230,230,230);
 	padding-left: 0;
+	border-bottom: solid 1px black;
 }
 
 li
 {
-	background-color: purple;
 	display: inline-block;
-	background-color: rgb(210,210,210);
-	padding: 5px;
+	padding: 10px;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid white;
+	margin-bottom: -1px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
 }
 
 img
