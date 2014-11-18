@@ -10,7 +10,14 @@
 
 			$(".firstbutton").click(function() {
 				
-				alert("Amazing! My first button click!");
+				var theMessage = "Amazing! My first button click!";
+
+				for (var b = 0; b <= 5; b++)
+				{
+					theMessage += b;
+				}
+
+				alert(theMessage);
 
 			});
 		
