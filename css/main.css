@@ -14,12 +14,16 @@ p
 ul
 {
 	color: blue;
+	background-color: rgb(230,230,230);
+	padding-left: 0;
 }
 
 li
 {
-	margin: 10px 15px;
 	background-color: purple;
+	display: inline-block;
+	background-color: rgb(210,210,210);
+	padding: 5px;
 }
 
 img
