@@ -1,47 +1,33 @@
-body
+h1
 {
-	background-color: rgb(227,203,123);
-	font-family: Arial;
-}
-
-h1,
-h2
-{
-	margin: 0;
 	color: green;
-	/*font-family: Georgia;*/
 }
 
 p
 {
-
-}
-
-.vehicle-box
-{
-	margin: 20px 0;
-	background-color: rgb(96,166,98);
-	width: 180px;
-	padding: 20px;
+	color: red;
 }
 
 ul
 {
-	margin: 0;
-	padding: 0;
-}
-
-li
-{
-	list-style: none;
-	margin: 0;
+	padding-left: 0;
+	border-bottom: solid 1px black;
 }
 
 img
 {
-	border: solid 10px black;
-	padding: 20px;
-	margin: 30px;
+
+	border-left: solid 10px green;
+	border-top: solid 50px black;
+	border-right: solid  2px red;
+	border-bottom: solid 39px blue;
+	padding: 0 32px 20px 110px;
+	margin: 30px 78px 11px 0;
+}
+
+body
+{
+	background-color: rgb(150,56,89);
 }
 
 div
@@ -57,3 +43,46 @@ div
 	background-color: rgb(230,240,250);
 }
 
+
+li
+{
+	display: inline-block;
+	padding: 10px;
+
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid white;
+	margin-bottom: -1px;
+
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+
+dl
+{
+	padding: 20px;
+	background-color: #efefef;
+}
+
+dl dt
+{
+	width: 160px;
+}
+
+
+dl dd 
+{
+	height: 1em;
+	margin-left: 0;
+	margin-bottom: 15px;
+	font-size: 200%;
+	font-weight: bold;
+	color: #666666;
+}
+
+dl:after
+{
+    content: " ";
+    display: table;
+  }
