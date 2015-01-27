@@ -8,27 +8,33 @@ $(document).ready(function() {
 			"name": "car",
 			"wheels" : 4,
 			"colour" : "red",
-			"wings" : 0
+			"wings" : 0,
+			"image" : "car.jpeg"
 		},
 		{
 			"name": "lorry",
 			"wheels" : 18,
 			"colour" : "blue",
-			"wings" : 0
+			"wings" : 0,
+			"image" : "lorry.jpeg"
 		},
 		{
 			"name": "airplane",
 			"wheels" : 6,
 			"colour" : "white",
-			"wings" : 2
+			"wings" : 2,
+			"image" : "airplane.jpeg"
 		},	
 		{
 			"name": "speedboat",
 			"wheels" : 0,
 			"colour" : "yellow",
-			"wings" : 0
+			"wings" : 0,
+			"image" : "speedboat.jpg"
 		}	
 	]
+
+	var imagefolder = "img";
 
 	$(".firstbutton").click(function() {
 		
@@ -40,6 +46,7 @@ $(document).ready(function() {
 		$("#vehicle-number-wheels").text(vehicles[b].wheels);
 		$("#vehicle-colour").text(vehicles[b].colour);
 		$("#vehicle-number-wings").text(vehicles[b].wings);
+		$("#vehicle-image").attr("src", imagefolder + "/" + vehicles[b].image);
 
 		b = b + 1;
 
